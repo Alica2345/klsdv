@@ -21,10 +21,10 @@ class MyIterator:
 iterator = MyIterator(5)
 
 print("Итератор:", list(iterator))
-print("Генератор обратного отсчёта:", list(iterator.count_down()))
+print("генератор обратного отсчета:", list(iterator.count_down()))
 
 multiplier_by_3 = iterator.multiplier(3)
-print("Умножение на 3:", multiplier_by_3(10), multiplier_by_3(5))
+print("множення на 3:", multiplier_by_3(10), multiplier_by_3(5))
 
 @print_result
 def square(x):
